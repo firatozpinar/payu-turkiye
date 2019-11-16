@@ -1,0 +1,10 @@
+/.idea
+/.vagrant
+/node_modules
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+composer.lock

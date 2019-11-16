@@ -1,0 +1,32 @@
+{
+    "name": "firatozpinar/payu-turkiye",
+    "type": "library",
+    "description": "payu.com.tr api paketi",
+    "keywords": [
+        "payu",
+        "payment"
+    ],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "firatozpinar",
+            "email": "firatozpinar@gmail.com",
+            "homepage": "http://firat.ozpinar.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "ext-SimpleXML": "*",
+        "ext-curl" :"*",
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PayuTurkiye\\": "src/",
+            "PayuTurkiye\\Test\\": "tests/"
+        }
+    }
+}
